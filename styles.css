@@ -1,17 +1,47 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lato';
 }
 
 body {
     background-color: #302D47;
-    display: flex;
-    justify-content: center;
+    margin: 0;
+    height: 100svh;
+    padding: 0 5%;
 }
 
-.form-wrapping {
-    width: 316px;
+h1, h2, h3 {
+    margin: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-login {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 109px;
+    font-weight: 900;
+    color: white;
+    line-height: 97px;
+}
+
+.logo-subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    color: #BFBFBF;
+}
+
+.login-form {
+    width: 316px;
+    margin-top: 89px;
 }
 
 .text-wrapping {
@@ -52,6 +82,7 @@ body {
     border-radius: 7px;
     width: 100%;
     transition: 300ms;
+    font-family: inherit;
 }
 
 .default-button:hover {
@@ -63,22 +94,30 @@ body {
 .entry-button {
     width: 152px;
     height: 40px;
+    font-size: 20px;
     text-transform: capitalize;
 }
 
-.span-button-wrapping {
+.h3-button-wrapping {
     display: flex;
     flex-direction: column;
     margin-top: 58px;
     gap: 25px;
 }
 
-.create-account-span {
+.create-account {
     color: #BFBFBF;
     text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .create-account-button {   
     height: 40px;
     font-size: 20px;
 }
+
+.image-login {
+    width: 60%;
+}
+

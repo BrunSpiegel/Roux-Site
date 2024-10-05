@@ -4,25 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roux website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <title>Roux website</title>
 </head>
 
-<body>
-    <form class="form-wrapping">
-        <div class="text-wrapping">
-            <input class="input-form" type="email" placeholder="Email">
-            <input class="input-form" type="password" placeholder="Senha">
-        </div>
-        <div class="link-button-wrapping">
-            <a class="forgot-pwd-link" href="#">esqueci a senha</a>
-            <button class="default-button entry-button">entrar</button>
-        </div>
-        <div class="span-button-wrapping">
-            <span class="create-account-span">não tem conta ainda?</span>
-            <button class="default-button create-account-button">Criar conta</button>
-        </div>
-    </form>
+<body class="login">
+    <section class="container-login">
+        <h1 class="logo-title">Roux</h1>
+        <h2 class="logo-subtitle">Building awesome sites</h2>
+        <form class="login-form">
+            <div class="text-wrapping">
+                <input class="input-form" type="email" placeholder="Email">
+                <input class="input-form" type="password" placeholder="Senha">
+            </div>
+            <div class="link-button-wrapping">
+                <a class="forgot-pwd-link" href="#">esqueci a senha</a>
+                <button class="default-button entry-button">entrar</button>
+            </div>
+            <div class="h3-button-wrapping">
+                <h3 class="create-account">não tem conta ainda?</h3>
+                <button class="default-button create-account-button">Criar conta</button>
+            </div>
+        </form>
+    </section>
+    <img class="image-login" src="undraw_progressive_app_m9ms@2x.png" title="Uma imagem de um computador e um smartphone com um fundo roxo e diversos poligonos ao redor" alt="Uma imagem de um computador e um smartphone com um fundo roxo e diversos poligonos ao redor">
 </body>
 
 </html>
