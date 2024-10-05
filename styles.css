@@ -1,0 +1,13 @@
+body {
+    background-color: #302D47;
+}
+
+input {
+    background-color: #3F3D56;
+    color: #D2D2D2;
+    padding: 9px 0 8px 23px;
+    width: 316px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
