@@ -1,13 +1,84 @@
-body {
-    background-color: #302D47;
+* {
+    box-sizing: border-box;
 }
 
-input {
+body {
+    background-color: #302D47;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapping {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrapping {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-form {
     background-color: #3F3D56;
     color: #D2D2D2;
     padding: 9px 0 8px 23px;
-    width: 316px;
     border-radius: 7px;
     outline: none;
     border: none;
+    font-size: 20px;
+}
+
+.link-button-wrapping {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot-pwd-link {
+    text-decoration: none;
+    color: #BFBFBF;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.default-button {
+    background-color: #6C63FF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    transition: 300ms;
+}
+
+.default-button:hover {
+    background-color: transparent;
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+}
+
+.entry-button {
+    width: 152px;
+    height: 40px;
+    text-transform: capitalize;
+}
+
+.span-button-wrapping {
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    gap: 25px;
+}
+
+.create-account-span {
+    color: #BFBFBF;
+    text-transform: capitalize;
+}
+
+.create-account-button {   
+    height: 40px;
+    font-size: 20px;
 }

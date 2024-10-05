@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roux website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form>
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Senha">
+    <form class="form-wrapping">
+        <div class="text-wrapping">
+            <input class="input-form" type="email" placeholder="Email">
+            <input class="input-form" type="password" placeholder="Senha">
+        </div>
+        <div class="link-button-wrapping">
+            <a class="forgot-pwd-link" href="#">esqueci a senha</a>
+            <button class="default-button entry-button">entrar</button>
+        </div>
+        <div class="span-button-wrapping">
+            <span class="create-account-span">não tem conta ainda?</span>
+            <button class="default-button create-account-button">Criar conta</button>
+        </div>
     </form>
 </body>
+
 </html>
